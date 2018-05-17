@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F157019720ACC18E00569DFF /* AnimationGroupsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F157019620ACC18E00569DFF /* AnimationGroupsViewController.swift */; };
+		F157019920ADFB3F00569DFF /* TransitionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F157019820ADFB3F00569DFF /* TransitionVC.swift */; };
+		F157019C20ADFC4100569DFF /* imgTwo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F157019A20ADFC4100569DFF /* imgTwo.jpg */; };
+		F157019D20ADFC4100569DFF /* imgOne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F157019B20ADFC4100569DFF /* imgOne.jpg */; };
 		F1C987B820A9F702003EA2DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C987B720A9F702003EA2DD /* AppDelegate.swift */; };
 		F1C987BA20A9F702003EA2DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C987B920A9F702003EA2DD /* ViewController.swift */; };
 		F1C987BD20A9F702003EA2DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C987BB20A9F702003EA2DD /* Main.storyboard */; };
 		F1C987BF20A9F705003EA2DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C987BE20A9F705003EA2DD /* Assets.xcassets */; };
 		F1C987C220A9F705003EA2DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1C987C020A9F705003EA2DD /* LaunchScreen.storyboard */; };
+		F1C987CA20AA16CC003EA2DD /* AnimationOfFrameVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C987C920AA16CC003EA2DD /* AnimationOfFrameVCViewController.swift */; };
+		F1C987CC20AB2AC2003EA2DD /* ImplicitAnimationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C987CB20AB2AC2003EA2DD /* ImplicitAnimationsVC.swift */; };
+		F1C987CE20AB316E003EA2DD /* ImplicitViewAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C987CD20AB316E003EA2DD /* ImplicitViewAnimationVC.swift */; };
+		F1C987D020AB31CF003EA2DD /* ImplicitAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C987CF20AB31CF003EA2DD /* ImplicitAnimationView.swift */; };
+		F1C987D220AB69E5003EA2DD /* CABasicAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C987D120AB69E5003EA2DD /* CABasicAnimationVC.swift */; };
+		F1C987D420AB7190003EA2DD /* CAKeyframeAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C987D320AB7190003EA2DD /* CAKeyframeAnimationVC.swift */; };
+		F1C987D620AB7601003EA2DD /* CAKeyFrameAnimationPathVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C987D520AB7601003EA2DD /* CAKeyFrameAnimationPathVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F157019620ACC18E00569DFF /* AnimationGroupsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationGroupsViewController.swift; sourceTree = "<group>"; };
+		F157019820ADFB3F00569DFF /* TransitionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionVC.swift; sourceTree = "<group>"; };
+		F157019A20ADFC4100569DFF /* imgTwo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgTwo.jpg; sourceTree = "<group>"; };
+		F157019B20ADFC4100569DFF /* imgOne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imgOne.jpg; sourceTree = "<group>"; };
 		F1C987B420A9F702003EA2DD /* AnimationInAFlash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationInAFlash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C987B720A9F702003EA2DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1C987B920A9F702003EA2DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +37,13 @@
 		F1C987BE20A9F705003EA2DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1C987C120A9F705003EA2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1C987C320A9F705003EA2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1C987C920AA16CC003EA2DD /* AnimationOfFrameVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationOfFrameVCViewController.swift; sourceTree = "<group>"; };
+		F1C987CB20AB2AC2003EA2DD /* ImplicitAnimationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationsVC.swift; sourceTree = "<group>"; };
+		F1C987CD20AB316E003EA2DD /* ImplicitViewAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitViewAnimationVC.swift; sourceTree = "<group>"; };
+		F1C987CF20AB31CF003EA2DD /* ImplicitAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationView.swift; sourceTree = "<group>"; };
+		F1C987D120AB69E5003EA2DD /* CABasicAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CABasicAnimationVC.swift; sourceTree = "<group>"; };
+		F1C987D320AB7190003EA2DD /* CAKeyframeAnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAKeyframeAnimationVC.swift; sourceTree = "<group>"; };
+		F1C987D520AB7601003EA2DD /* CAKeyFrameAnimationPathVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAKeyFrameAnimationPathVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +76,23 @@
 		F1C987B620A9F702003EA2DD /* AnimationInAFlash */ = {
 			isa = PBXGroup;
 			children = (
+				F157019B20ADFC4100569DFF /* imgOne.jpg */,
+				F157019A20ADFC4100569DFF /* imgTwo.jpg */,
 				F1C987B720A9F702003EA2DD /* AppDelegate.swift */,
 				F1C987B920A9F702003EA2DD /* ViewController.swift */,
 				F1C987BB20A9F702003EA2DD /* Main.storyboard */,
 				F1C987BE20A9F705003EA2DD /* Assets.xcassets */,
 				F1C987C020A9F705003EA2DD /* LaunchScreen.storyboard */,
 				F1C987C320A9F705003EA2DD /* Info.plist */,
+				F1C987C920AA16CC003EA2DD /* AnimationOfFrameVCViewController.swift */,
+				F1C987CB20AB2AC2003EA2DD /* ImplicitAnimationsVC.swift */,
+				F1C987CD20AB316E003EA2DD /* ImplicitViewAnimationVC.swift */,
+				F1C987CF20AB31CF003EA2DD /* ImplicitAnimationView.swift */,
+				F1C987D120AB69E5003EA2DD /* CABasicAnimationVC.swift */,
+				F1C987D320AB7190003EA2DD /* CAKeyframeAnimationVC.swift */,
+				F1C987D520AB7601003EA2DD /* CAKeyFrameAnimationPathVC.swift */,
+				F157019620ACC18E00569DFF /* AnimationGroupsViewController.swift */,
+				F157019820ADFB3F00569DFF /* TransitionVC.swift */,
 			);
 			path = AnimationInAFlash;
 			sourceTree = "<group>";
@@ -122,6 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F157019C20ADFC4100569DFF /* imgTwo.jpg in Resources */,
+				F157019D20ADFC4100569DFF /* imgOne.jpg in Resources */,
 				F1C987C220A9F705003EA2DD /* LaunchScreen.storyboard in Resources */,
 				F1C987BF20A9F705003EA2DD /* Assets.xcassets in Resources */,
 				F1C987BD20A9F702003EA2DD /* Main.storyboard in Resources */,
@@ -135,8 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C987D020AB31CF003EA2DD /* ImplicitAnimationView.swift in Sources */,
+				F1C987CC20AB2AC2003EA2DD /* ImplicitAnimationsVC.swift in Sources */,
+				F1C987CE20AB316E003EA2DD /* ImplicitViewAnimationVC.swift in Sources */,
 				F1C987BA20A9F702003EA2DD /* ViewController.swift in Sources */,
+				F1C987D220AB69E5003EA2DD /* CABasicAnimationVC.swift in Sources */,
+				F1C987D620AB7601003EA2DD /* CAKeyFrameAnimationPathVC.swift in Sources */,
+				F1C987CA20AA16CC003EA2DD /* AnimationOfFrameVCViewController.swift in Sources */,
 				F1C987B820A9F702003EA2DD /* AppDelegate.swift in Sources */,
+				F157019920ADFB3F00569DFF /* TransitionVC.swift in Sources */,
+				F1C987D420AB7190003EA2DD /* CAKeyframeAnimationVC.swift in Sources */,
+				F157019720ACC18E00569DFF /* AnimationGroupsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
