@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zHH-I0-0QI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zHH-I0-0QI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -181,6 +181,26 @@
                                             <segue destination="QFx-7v-HzT" kind="show" id="yyo-CJ-C5w"/>
                                         </connections>
                                     </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="JYS-Ik-vq0" style="IBUITableViewCellStyleDefault" id="VOL-8y-zW7">
+                                        <rect key="frame" x="0.0" y="352" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VOL-8y-zW7" id="6Rx-to-7yi">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="UIDynamicAnimator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JYS-Ik-vq0">
+                                                    <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="zRx-Jm-aC0" kind="show" id="tbM-Br-eHp"/>
+                                        </connections>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -244,7 +264,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fzs-r6-zPH">
-                                <rect key="frame" x="158.5" y="514" width="57" height="125"/>
+                                <rect key="frame" x="159" y="514" width="57" height="125"/>
                                 <state key="normal" title="Animate"/>
                                 <connections>
                                     <action selector="animatePressed:" destination="QFx-7v-HzT" eventType="touchUpInside" id="bom-Ol-bDm"/>
@@ -282,6 +302,49 @@
             </objects>
             <point key="canvasLocation" x="2369" y="3967"/>
         </scene>
+        <!--Dynamic Animator View Controller-->
+        <scene sceneID="f3i-Jd-Zxm">
+            <objects>
+                <viewController id="zRx-Jm-aC0" customClass="DynamicAnimatorViewController" customModule="AnimationInAFlash" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tU3-7T-RVx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XPs-xC-70V">
+                                <rect key="frame" x="16" y="94" width="145" height="128"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.25882352939999997" blue="0.2274509804" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="FQs-3Q-pT4"/>
+                                    <constraint firstAttribute="width" constant="145" id="nXU-lI-J0R"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uhi-oV-f58">
+                                <rect key="frame" x="0.0" y="351.5" width="70" height="28"/>
+                                <color key="backgroundColor" red="0.99607843139999996" green="0.98039215690000003" blue="0.12549019610000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Erk-Yu-xDf"/>
+                                    <constraint firstAttribute="width" constant="70" id="KO3-2d-7gl"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uhi-oV-f58" firstAttribute="centerY" secondItem="Um8-C0-HfP" secondAttribute="centerY" id="LpS-Zy-Wv8"/>
+                            <constraint firstItem="uhi-oV-f58" firstAttribute="leading" secondItem="Um8-C0-HfP" secondAttribute="leading" id="S8x-48-9zD"/>
+                            <constraint firstItem="XPs-xC-70V" firstAttribute="top" secondItem="Um8-C0-HfP" secondAttribute="top" constant="30" id="rAD-in-mHD"/>
+                            <constraint firstItem="XPs-xC-70V" firstAttribute="leading" secondItem="Um8-C0-HfP" secondAttribute="leading" constant="16" id="yve-L9-yB4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Um8-C0-HfP"/>
+                    </view>
+                    <connections>
+                        <outlet property="collisionBoundaryView" destination="uhi-oV-f58" id="lY0-ex-c0B"/>
+                        <outlet property="demoView" destination="XPs-xC-70V" id="73V-xb-heg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tdk-sg-ieJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2389.5999999999999" y="4778.8605697151424"/>
+        </scene>
         <!--Animation Of FrameVC View Controller-->
         <scene sceneID="YFx-n0-Aqd">
             <objects>
@@ -299,7 +362,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fG2-XT-2sN">
-                                <rect key="frame" x="168" y="350.5" width="38" height="30"/>
+                                <rect key="frame" x="168.5" y="350.5" width="38" height="30"/>
                                 <state key="normal" title="Move"/>
                                 <connections>
                                     <action selector="movePressed:" destination="lRh-pL-VQW" eventType="touchUpInside" id="V6x-kT-6Bl"/>
@@ -332,7 +395,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgB-zp-bhs">
-                                <rect key="frame" x="168" y="286.5" width="38" height="30"/>
+                                <rect key="frame" x="168.5" y="286.5" width="38" height="30"/>
                                 <state key="normal" title="Move"/>
                                 <connections>
                                     <action selector="movePressed:" destination="dZH-W3-AWa" eventType="touchUpInside" id="kiV-2q-kEa"/>
@@ -361,7 +424,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vP7-G8-POy">
-                                <rect key="frame" x="158.5" y="597" width="57" height="30"/>
+                                <rect key="frame" x="159" y="597" width="57" height="30"/>
                                 <state key="normal" title="Animate"/>
                                 <connections>
                                     <action selector="animatePressed:" destination="J2t-9U-feH" eventType="touchUpInside" id="6EG-DO-q0k"/>
@@ -398,7 +461,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZ6-kS-nFQ">
-                                <rect key="frame" x="141" y="477" width="92" height="30"/>
+                                <rect key="frame" x="141.5" y="477" width="92" height="30"/>
                                 <state key="normal" title="Change color"/>
                                 <connections>
                                     <action selector="changeCOlorPressed:" destination="2WJ-bS-YZi" eventType="touchUpInside" id="GLp-zu-kUN"/>
@@ -435,7 +498,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wIM-Ik-VY1">
-                                <rect key="frame" x="142" y="555" width="90" height="30"/>
+                                <rect key="frame" x="142.5" y="555" width="90" height="30"/>
                                 <state key="normal" title="change color"/>
                                 <connections>
                                     <action selector="changeColorPressed:" destination="txY-4N-47Q" eventType="touchUpInside" id="ATS-Qw-n6y"/>
@@ -495,7 +558,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ql-H3-C1l">
-                                        <rect key="frame" x="315" y="286" width="40" height="30"/>
+                                        <rect key="frame" x="315" y="286.5" width="40" height="30"/>
                                         <state key="normal" title="REset"/>
                                         <connections>
                                             <action selector="resetPressed:" destination="pdB-4u-oRd" eventType="touchUpInside" id="lwM-Ef-CGD"/>
